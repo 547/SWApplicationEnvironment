@@ -8,7 +8,7 @@
 import Foundation
 public protocol SWEnvironmentProtocal {
     ///Api环境
-    var apiEnvironment: ApiEnvironment { get }
+    var environment: ApplicationEnvironment { get }
     ///项目环境
     var projectEnvironment:ProjectEnvironment { get }
     ///发布平台

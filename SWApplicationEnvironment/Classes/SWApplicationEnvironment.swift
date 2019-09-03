@@ -6,8 +6,8 @@
 //
 
 import Foundation
-///Api环境
-public enum ApiEnvironment: String {
+///环境(大部分时候与api有关)
+public enum ApplicationEnvironment: String {
     ///开发环境
     case development
     ///预生产环境
