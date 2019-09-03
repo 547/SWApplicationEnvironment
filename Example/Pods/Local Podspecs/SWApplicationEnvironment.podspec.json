@@ -1,8 +1,8 @@
 {
   "name": "SWApplicationEnvironment",
   "version": "0.1.0",
-  "summary": "A short description of SWApplicationEnvironment.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "通常app开发会使用的环境enum",
+  "description": "通常app开发是会切换环境，这里包括了网络环境，项目打包输出环境.",
   "homepage": "https://github.com/547/SWApplicationEnvironment",
   "license": {
     "type": "MIT",
@@ -16,7 +16,9 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "SWApplicationEnvironment/Classes/**/*"
+  "source_files": "SWApplicationEnvironment/**/*{h,m,swift}",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }
