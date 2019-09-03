@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SWApplicationEnvironment/**/*'
+  s.source_files = 'SWApplicationEnvironment/Classes/**/*'
   
   # s.resource_bundles = {
   #   'SWApplicationEnvironment' => ['SWApplicationEnvironment/Assets/*.png']
