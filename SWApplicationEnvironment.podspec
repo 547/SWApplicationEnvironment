@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SWApplicationEnvironment'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SWApplicationEnvironment.'
+  s.summary          = '通常app开发会使用的环境enum'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+通常app开发是会切换环境，这里包括了网络环境，项目打包输出环境.
                        DESC
 
   s.homepage         = 'https://github.com/547/SWApplicationEnvironment'
@@ -28,9 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/547/SWApplicationEnvironment.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SWApplicationEnvironment/Classes/**/*'
+  s.source_files = 'SWApplicationEnvironment/**/*{h,m,swift}'
   
   # s.resource_bundles = {
   #   'SWApplicationEnvironment' => ['SWApplicationEnvironment/Assets/*.png']
@@ -39,4 +39,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_version = '5.0'
 end

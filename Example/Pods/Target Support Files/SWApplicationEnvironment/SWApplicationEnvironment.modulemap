@@ -1,0 +1,6 @@
+framework module SWApplicationEnvironment {
+  umbrella header "SWApplicationEnvironment-umbrella.h"
+
+  export *
+  module * { export * }
+}

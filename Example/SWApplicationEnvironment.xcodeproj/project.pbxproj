@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		034AEBF4E2FAD0A8A492C835 /* Pods-SWApplicationEnvironment_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWApplicationEnvironment_Tests.release.xcconfig"; path = "Target Support Files/Pods-SWApplicationEnvironment_Tests/Pods-SWApplicationEnvironment_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		591A2F16C8AE243621989BAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		591A2F16C8AE243621989BAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SWApplicationEnvironment_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWApplicationEnvironment_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		A3A45128E3379F8A6BF2BBF9 /* Pods-SWApplicationEnvironment_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWApplicationEnvironment_Example.debug.xcconfig"; path = "Target Support Files/Pods-SWApplicationEnvironment_Example/Pods-SWApplicationEnvironment_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A492C2796E2AB03AEEFB496D /* Pods-SWApplicationEnvironment_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWApplicationEnvironment_Example.release.xcconfig"; path = "Target Support Files/Pods-SWApplicationEnvironment_Example/Pods-SWApplicationEnvironment_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A91B6DC1DC9095D4837DA4EE /* Pods_SWApplicationEnvironment_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWApplicationEnvironment_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0418DF1C12FEEFD112ADFF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EA6414A9CD86D242783263BD /* SWApplicationEnvironment.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SWApplicationEnvironment.podspec; path = ../SWApplicationEnvironment.podspec; sourceTree = "<group>"; };
+		C0418DF1C12FEEFD112ADFF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EA6414A9CD86D242783263BD /* SWApplicationEnvironment.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SWApplicationEnvironment.podspec; path = ../SWApplicationEnvironment.podspec; sourceTree = "<group>"; };
 		F03C3918DB4D44AD2BCEF21F /* Pods-SWApplicationEnvironment_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWApplicationEnvironment_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SWApplicationEnvironment_Tests/Pods-SWApplicationEnvironment_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				F03C3918DB4D44AD2BCEF21F /* Pods-SWApplicationEnvironment_Tests.debug.xcconfig */,
 				034AEBF4E2FAD0A8A492C835 /* Pods-SWApplicationEnvironment_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -498,12 +498,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SWApplicationEnvironment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -513,12 +514,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SWApplicationEnvironment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

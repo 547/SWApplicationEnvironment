@@ -1,0 +1,22 @@
+{
+  "name": "SWApplicationEnvironment",
+  "version": "0.1.0",
+  "summary": "A short description of SWApplicationEnvironment.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/547/SWApplicationEnvironment",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "547": "timer_sevenwang@163.com"
+  },
+  "source": {
+    "git": "https://github.com/547/SWApplicationEnvironment.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SWApplicationEnvironment/Classes/**/*"
+}
