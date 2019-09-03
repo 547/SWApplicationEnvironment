@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  SWApplicationEnvironment: 3c43a031179bbb933dcccb07e04dd32099a915b8
+  SWApplicationEnvironment: d1dab728de3fa84f853c5ae6fb1ee845e2aa512b
 
 PODFILE CHECKSUM: 043e9481dddab59a42c689d11c0b9305aebbae96
 

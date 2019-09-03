@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "SWApplicationEnvironment/**/*{h,m,swift}",
+  "source_files": "SWApplicationEnvironment/**/*",
   "swift_versions": "5.0",
   "swift_version": "5.0"
 }
